@@ -11,8 +11,8 @@ class Roll extends Component {
 
   handleClick = () => {
  
-  let randomDice1= Math.floor(6*Math.random()+1)
-  let randomDice2= Math.floor(6*Math.random()+1)
+  let randomDice1= Math.floor(6*Math.random())+1
+  let randomDice2= Math.floor(6*Math.random())+1
   this.setState({
     Dice1:randomDice1,
     Dice2:randomDice2
