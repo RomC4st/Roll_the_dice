@@ -18,7 +18,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.Header{
+  min-height:150px !important;
+  width:100%; 
+  background-color: rgba(0, 0, 0,0.2);
+  margin-bottom: 9%;
+  
+}
+.Footer{
+  min-height:150px !important;
+  width:100%; 
+  background-color: rgba(0, 0, 0,0.2);
+  margin-top: 9%;
+}
 .App-link {
   color: #61dafb;
 }
